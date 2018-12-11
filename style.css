@@ -1,0 +1,518 @@
+/*
+Tulis di sini semua style yang Anda buat.
+Tidak diperbolehkan membuat file .CSS lainnya.
+*/
+
+/*CSS Untuk Home*/
+
+
+body{
+  font:normal 15px/1.5 PT Sans, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#f4f4f4;
+}
+
+/* Semua Container */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+/* Header **/
+header{
+  background:url('images/background-banner/background-index.jpg') no-repeat 0 -0px;
+  color:white;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top:30px;
+  border-bottom:#337ab7 5px solid;
+  min-height: 200px;
+}
+
+
+
+header a{
+  color:white;
+  text-decoration:none;
+  font-size:18px;
+}
+
+header li{
+
+  float:left;
+  display:inline;
+  padding: 10px 30px 0 30px;
+}
+
+header #Logo{
+  float:left;
+  
+}
+
+header #Logo h1{
+  margin:0;
+}
+
+header nav{
+  font-family:'Roboto Slab',sans-serif;
+  float:right;
+  margin:0;
+}
+
+header .highlight, header .current a{
+  color:white;
+}
+
+header a:hover{
+  color:#337ab7;
+  
+}
+
+/* Bannernya */
+#banner{
+  height:625px;
+  text-align:center;
+  color:white;
+  font-family:'Josefin Sans',sans-serif;
+  line-height: 1.0;
+}
+
+#banner h1{
+  font-size:62px;
+  margin-top:50px;
+  margin-bottom:10px;
+  padding:0;
+}
+
+#banner p{
+
+  font-size:38px;
+  margin-top:140px;
+  font-family:'Josefin Sans',sans-serif;
+
+}
+
+#banner h3{
+  font-size:36px;
+  margin-top:50px;
+
+}
+
+
+
+/* About Me Home */
+#more-info{
+  font-family:'PT Sans',sans-serif;
+  margin-top:5px;
+}
+
+#more-info .box-1 img{
+  width:250px;
+}
+
+#more-info .box-1 p{
+  font-size:18px;
+}
+
+#more-info .box-1{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+
+/* Keahlian-1 */
+#keahlian-1{
+  font-family:'PT Sans',sans-serif;
+  margin-top:5px;
+  margin-bottom:10px;
+}
+
+#keahlian-1 .box-2{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+
+#keahlian-1 .box-2 img{
+  width:90px;
+}
+
+
+/* Keahlian-2 */
+#keahlian-2{
+  font-family:'PT Sans',sans-serif;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#keahlian-2 .box-3{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#keahlian-2 .box-3 img{
+  width:90px;
+}
+
+/* JUDUL */
+#jdl {
+  padding:10px;
+  margin-top:10px;
+  color:#ffffff;
+  text-align: center;
+  width:95%;
+}
+
+#jdl h3{
+  background-color:#000000;
+  font-family:'PT Sans',sans-serif;
+  font-size:35px;
+  
+}
+
+#jdl2 {
+  padding:10px;
+  margin-top:10px;
+  color:#ffffff;
+  text-align: center;
+  width:95%;
+}
+
+#jdl2 h3{
+  background-color:#000000;
+  font-family:PT Sans,sans-serif;
+  font-size:35px;
+  
+}
+
+/*-------------------------------------PEMBATAS-------------------------------------*/
+
+/* Footer nya */
+footer{
+  font-family:'PT Sans',sans-serif;
+  padding:20px;
+  color:#ffffff;
+  background-color:#337ab7;
+}
+
+footer p{
+  text-align: left;
+  font-size:16px;
+  padding:23px 18px 8px 0px;
+
+}
+
+.socmed .fa {
+  padding: 18px;
+  font-size: 20px;
+  width: 55px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  float:right;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #5851db;
+  color: white;
+  
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+
+.fa-instagram {
+  background: #833ab4;
+  color: white;
+}
+
+.fa-steam {
+  background: black;
+  color: white;
+}
+
+
+/*-------------------------------------PEMBATAS-------------------------------------*/
+
+
+/*CSS Untuk Contact*/
+#contact{
+  font-family:'PT Sans',sans-serif;
+  margin-top:0px;
+  margin-bottom:20px;
+
+}
+
+#contact .box-6{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  font-size:18px;
+}
+
+#contact .box-6 img{
+  width:90px;
+  padding-bottom: 20px
+}
+
+
+/*-------------------------------------PEMBATAS-------------------------------------*/
+
+/*CSS Untuk Portfolio*/
+#skills{
+  font-family:'Lato',sans-serif;
+  margin-top:0px;
+}
+
+
+#skills .box-4{
+  float:left;
+  text-align: left;
+  width:30%;
+  padding:10px;
+}
+
+#skills hr {
+  border: 0;
+  color: #f00;
+  background-color: #f00;
+  height: 10px;
+
+}
+
+.hr1{
+  width:80%;
+}
+.hr2{
+  width:40%;
+}
+.hr3{
+  width:55%;
+}
+
+.hr4{
+  width:70%;
+}
+.hr5{
+  width:85%;
+}
+.hr6{
+  width:60%;
+}
+
+
+
+#education-1{
+  font-family:'PT Sans',sans-serif;
+  margin-top:5px;
+  margin-bottom:20px;
+}
+
+#education-1 .box-5{
+  float:left;
+  text-align: center;
+  width:45%;
+  padding:10px;
+}
+
+#education-1 .box-5 img{
+  width:90px;
+}
+
+
+#education-2{
+  font-family:'PT Sans',sans-serif;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+#education-2 .box-5{
+  float:left;
+  text-align: center;
+  width:45%;
+  padding:10px;
+}
+
+#education-2 .box-5 img{
+  width:90px;
+}
+
+
+#portfolio{
+  font-family:'PT Sans',sans-serif;
+  margin-top:0px;
+  margin-bottom:50px;
+}
+
+#portfolio .box-8{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#portfolio .box-8 img{
+  width:280px;
+}
+
+#jdl3 {
+  padding:10px;
+  margin-top:10px;
+  color:#ffffff;
+  text-align: center;
+  width:95%;
+}
+
+#jdl3 h3{
+  background-color:#000000;
+  font-family:PT Sans,sans-serif;
+  font-size:35px;
+  
+}
+
+#jdl4 {
+  padding:10px;
+  margin-top:10px;
+  color:#ffffff;
+  text-align: center;
+  width:95%;
+}
+
+#jdl4 h3{
+  background-color:#000000;
+  font-family:PT Sans,sans-serif;
+  font-size:35px;
+  
+}
+
+
+/*-------------------------------------PEMBATAS-------------------------------------*/
+
+/*CSS Untuk About*/
+#objective{
+  font-family:'PT Sans',sans-serif;
+  margin-top:5px;
+  margin-bottom:50px;
+  
+}
+
+#objective .box-7{
+  text-align: center;
+  width:95%;
+  padding:5px;
+}
+#objective .box-7 p{
+  text-align: center;
+  font-size:18px;
+}
+
+
+
+
+
+/* Media Queries( Untuk Responsive Website) */
+@media (max-width: 768px){
+  header #Logo,
+  header nav,
+  header nav li,
+  #more-info .box-1,
+  #keahlian-1 .box-2,
+  #keahlian-2 .box-3,
+  #skills .box-4,
+  #education-1 .box-5,
+  #education-2 .box-5,
+  #contact .box-6,
+  #portfolio .box-8,
+  .socmed, footer .p,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #banner h1{
+    margin-top:40px;
+  }
+  footer p{
+    display:inline-block;
+  }
+
+
+}
+
+/*-------------------------------------PEMBATAS-------------------------------------*/
+
+.home-newsletter {
+  padding: 60px 0;
+  background: #000000;
+  }
+  
+  .home-newsletter .single {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+
+  .home-newsletter .single h2 {
+  font-size: 22px;
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 40px; }
+
+  .home-newsletter .single .form-control {
+  height: 50px;
+  background: rgba(255, 255, 255, 0.6);
+  border-color: transparent; }
+
+  .home-newsletter .single .form-control:focus {
+  box-shadow: none;
+  border-color: #243c4f; }
+
+  .home-newsletter .single .btn {
+  min-height: 50px; 
+  background: #337ab7;
+  color: #fff;}
+
+  }
+
+ #batas .hr  {
+    border-top: 3px double #000000;
+    width:80%;
+    text-align:center;
+    
+  }
+
